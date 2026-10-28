@@ -5,8 +5,8 @@
 | 과목 | 오픈소스 소프트웨어 |
 | 학번 | 23101164 |
 | 성명 | 김재민 |
-| 프로젝트명 | 저가형 LiDAR를 활용한 실내 구조 3D 스캐닝 |
-| 영문명 | Low-Cost LiDAR-Based 3D Scanning of Indoor Structures |
+| 프로젝트명 | LiDAR를 활용한 실내 구조 3D 스캐닝 |
+| 영문명 | LiDAR-Based 3D Scanning of Indoor Structures |
 
 ## 제안배경
 
@@ -27,7 +27,7 @@
 | 서보용 5V 전원과 연결 부품 | 모터 전원 공급과 배선 |
 | 기존 PC 또는 노트북 | 측정 데이터 처리와 3D 시각화 |
 
-부품은 실제 판매 가격과 배송비를 확인하여 선정한다. 서보 전원과 제어 보드는 공통 접지를 구성하고, 보드와 센서의 통신 신호 전압이 다르면 레벨 변환 모듈을 사용한다.
+서보 전원과 제어 보드는 공통 접지를 구성하고, 보드와 센서의 통신 신호 전압이 다르면 레벨 변환 모듈을 사용한다.
 
 ### 구현 방법
 
@@ -77,6 +77,5 @@
 
 ## 참고자료
 
-- [Benewake TF-Luna 사용자 매뉴얼](https://ai.benewake.com/en/resources/technical-documents/tf-luna-user-manual/)
 - [Open3D 점군 처리 문서](https://www.open3d.org/docs/latest/tutorial/geometry/pointcloud.html)
-- [Arduino 전원 공급 안내](https://support.arduino.cc/hc/en-us/articles/360018922259-What-power-supply-can-I-use-with-my-Arduino-board)
+
